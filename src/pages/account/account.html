@@ -1,0 +1,45 @@
+<!--
+  Generated template for the AccountPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>account</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+  <form (ngSubmit)="changeEmail()">
+    <ion-list-header color="primary-pale">
+      EMAIL
+    </ion-list-header>
+    <ion-item>
+      <ion-label fixed>Current</ion-label>
+      <ion-input type="text" [(ngModel)]="email.current" name="Required"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label fixed>New</ion-label>
+      <ion-textarea [(ngModel)]="email.new" name="Required"></ion-textarea>
+    </ion-item>
+    <button ion-button type="submit" block>Change Email</button>
+  </form>
+  <form (ngSubmit)="changePassword()">
+    <ion-list-header color="primary-pale">
+      PASSWORD
+    </ion-list-header>
+    <ion-item>
+      <ion-label fixed>Current</ion-label>
+      <ion-input type="text" [(ngModel)]="password.current" name="Required"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label fixed>New</ion-label>
+      <ion-textarea [(ngModel)]="password.new" name="Required"></ion-textarea>
+    </ion-item>
+    <button ion-button type="submit" block>Change Password</button>
+  </form>
+</ion-content>
