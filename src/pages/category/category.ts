@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { VideoPlayerPage } from '../video-player/video-player';
 
 /**
  * Generated class for the CategoryPage page.
@@ -17,7 +18,7 @@ export class CategoryPage {
   category:{
     categoryName:string,
     assigned:boolean,
-    videos:Array<{title: string, desc:string, image:string}>
+    videos:any
   }
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
@@ -28,4 +29,7 @@ export class CategoryPage {
     console.log('ionViewDidLoad CategoryPage');
   }
 
+  openCategoryPage(video) {
+    this.navCtrl.push(VideoPlayerPage, {video: video});
+  }
 }

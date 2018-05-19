@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpModule } from '@angular/http';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
@@ -10,9 +11,11 @@ import { LanguagePage } from '../pages/language/language';
 import { AccountPage } from '../pages/account/account';
 import { NotificationsPage } from '../pages/notifications/notifications';
 import { CategoryPage } from '../pages/category/category';
+import { VideoPlayerPage } from '../pages/video-player/video-player';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { YoutubePipe } from '../pipes/youtube/youtube';
 
 @NgModule({
   declarations: [
@@ -23,10 +26,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LanguagePage,
     AccountPage,
     NotificationsPage,
-    CategoryPage
+    CategoryPage,
+    VideoPlayerPage,
+    YoutubePipe
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     IonicModule.forRoot(MyApp),
   ],
   bootstrap: [IonicApp],
@@ -38,7 +44,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LanguagePage,
     AccountPage,
     NotificationsPage,
-    CategoryPage
+    CategoryPage,
+    VideoPlayerPage
   ],
   providers: [
     StatusBar,

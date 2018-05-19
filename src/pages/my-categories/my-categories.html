@@ -29,9 +29,9 @@
       <ion-row >
         <ion-col col-6 col-xs *ngFor="let video of category.videos" style="padding:5px" no-margin>
           <ion-card no-padding no-margin style="width:100%">
-            <img src={{video.image}} />
+            <img src={{video.snippet.thumbnails.high.url}} />
             <ion-card-content style="height:30px;padding:2px;">
-            <p class='ellipsis' style="line-height:12px"><b><small>{{video.title}}</small></b></p>
+            <p class='ellipsis' style="line-height:12px"><b><small>{{video.snippet.title}}</small></b></p>
             </ion-card-content>
           </ion-card>
         </ion-col>

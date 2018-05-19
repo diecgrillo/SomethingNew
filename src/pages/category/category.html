@@ -14,14 +14,14 @@
 
 <ion-content >
   <ion-card *ngFor="let video of category.videos" style="background-color:#d6d6f5;padding:5px">
-    <img src={{video.image}}/>
+    <img src={{video.snippet.thumbnails.high.url}}/>
 
-    <ion-card-content>
+    <ion-card-content (click)="openCategoryPage(video)">
       <ion-card-title>
-        {{video.title}}
+        {{video.snippet.title}}
       </ion-card-title>
       <p class='ellipsis'>
-        {{video.desc}}
+        {{video.snippet.description}}
       </p>
     </ion-card-content>
   </ion-card>
