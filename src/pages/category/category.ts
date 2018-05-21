@@ -30,6 +30,7 @@ export class CategoryPage {
   }
 
   openCategoryPage(video) {
-    this.navCtrl.push(VideoPlayerPage, {video: video});
+    this.navCtrl.push(VideoPlayerPage, {video: video, category: this.category});
   }
+
 }

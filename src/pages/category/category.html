@@ -7,23 +7,23 @@
 <ion-header>
 
   <ion-navbar color="primary">
-    <ion-title>{{category.categoryName}}</ion-title>
+    <ion-title></ion-title>
   </ion-navbar>
 </ion-header>
 
 
-<ion-content >
-  <ion-card *ngFor="let video of category.videos" style="background-color:#d6d6f5;padding:5px">
-    <img src={{video.snippet.thumbnails.high.url}}/>
-
-    <ion-card-content (click)="openCategoryPage(video)">
-      <ion-card-title>
-        {{video.snippet.title}}
-      </ion-card-title>
-      <p class='ellipsis'>
-        {{video.snippet.description}}
-      </p>
-    </ion-card-content>
-  </ion-card>
-
+<ion-content style="background-color:#003d99">
+  <ion-label style="font-size:18px;padding-top:10px;padding-bottom:10px;color:#ffffff" align="center">
+    {{category.categoryName}}
+  </ion-label>
+  <!--ion-title >{{category.categoryName}}</ion-title-->
+  <ion-list no-padding >
+    <ion-item *ngFor="let video of category.videos" style="padding-left:5px" text-wrap (click)="openCategoryPage(video)">
+      <ion-thumbnail item-start>
+        <img src={{video.snippet.thumbnails.default.url}} style="width:auto">
+      </ion-thumbnail>
+      <h4 class="ellipsis-3">{{video.snippet.title}}</h4>
+      <p class="ellipsis-2" style="">{{video.snippet.description}}</p>
+    </ion-item>
+  </ion-list>
 </ion-content>

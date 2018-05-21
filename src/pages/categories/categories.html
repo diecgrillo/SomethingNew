@@ -18,21 +18,22 @@
 
 
 <ion-content >
-  <ion-card *ngFor="let category of categories" style="background-color:#d6d6f5">
-    <ion-item style="background-color:#d6d6f5">
-
-      <ion-label color="primary-dark">
+  <ion-card class="card-categories" *ngFor="let category of categories; let i=index" >
+    <ion-item class="card-categories-item">
+      <ion-label class="card-categories-label">
         {{category.categoryName}}
       </ion-label>
-      <ion-checkbox color="primary" [checked]="category.assigned"></ion-checkbox>
+
+      <ion-toggle color="toggle-color" [checked]="category.assigned"></ion-toggle>
+      <!--ion-checkbox color="primary-light" [checked]="category.assigned"></ion-checkbox-->
     </ion-item>
-    <ion-card-content no-padding (click)="openCategoryPage(category)">
+    <ion-card-content class="card-categories-content" (click)="openCategoryPage(category)">
       <ion-row >
-        <ion-col col-6 col-xs *ngFor="let video of category.videos" style="padding:5px" no-margin>
+        <ion-col class="card-categories-col" col-6 col-xs *ngFor="let video of category.videos" no-margin>
           <ion-card no-padding no-margin style="width:100%">
-            <img src={{video.snippet.thumbnails.high.url}} />
-            <ion-card-content style="height:30px;padding:2px;">
-            <p class='ellipsis' style="line-height:12px"><b><small>{{video.snippet.title}}</small></b></p>
+            <img src={{video.snippet.thumbnails.medium.url}} />
+            <ion-card-content class="card-categories-card-category-content">
+              <p class='ellipsis' align="center"><small>{{video.snippet.title}}</small></p>
             </ion-card-content>
           </ion-card>
         </ion-col>

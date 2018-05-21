@@ -15,13 +15,22 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class VideoPlayerPage {
   video:any=[];
+  category:{
+    categoryName:string,
+    assigned:boolean,
+    videos:any
+  }
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.video= navParams.get('video');
+    this.video = navParams.get('video');
+    this.category = navParams.get('category');
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad VideoPlayerPage');
   }
 
+  openCategoryPage(video) {
+    this.navCtrl.push(VideoPlayerPage, {video: video, category: this.category});
+  }
 }

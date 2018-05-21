@@ -1,9 +1,20 @@
 page-video-player {
-  .ellipsis {
+  .ellipsis-2 {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+    font-size:10px;
+    color:#66a3ff;
+  }
+
+  .ellipsis-3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color:#003d99;
   }
 }
