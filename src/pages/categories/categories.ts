@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { CategoryPage } from '../category/category';
-import { YouTubeProvider } from '../../providers/you-tube/you-tube';
+import { VideosByCategoryProvider } from '../../providers/videos-by-category/videos-by-category';
 
 /**
  * Generated class for the CategoriesPage page.
@@ -18,10 +18,13 @@ import { YouTubeProvider } from '../../providers/you-tube/you-tube';
 export class CategoriesPage {
 
   /*categories: Array<{categoryName: string, assigned:boolean, videos:Array<{title: string, desc:string, image:string}>}>*/
-  categories: Array<{categoryName: string, assigned:boolean, videos:any}>
+  categories: Array<{name: string, videos:any}>
+  assigned:boolean=false;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public youTubeProvider: YouTubeProvider) {
-    this.categories=youTubeProvider.load();    
+  constructor(public navCtrl: NavController, public navParams: NavParams, public videosByCategoryProvider: VideosByCategoryProvider) {
+    videosByCategoryProvider.load().then(data => {
+      this.categories = data;
+    });
   }
 
   ionViewDidLoad() {

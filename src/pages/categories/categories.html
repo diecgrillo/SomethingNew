@@ -21,10 +21,10 @@
   <ion-card class="card-categories" *ngFor="let category of categories; let i=index" >
     <ion-item class="card-categories-item">
       <ion-label class="card-categories-label">
-        {{category.categoryName}}
+        {{category.name}}
       </ion-label>
 
-      <ion-toggle color="toggle-color" [checked]="category.assigned"></ion-toggle>
+      <ion-toggle color="toggle-color" [checked]="assigned"></ion-toggle>
       <!--ion-checkbox color="primary-light" [checked]="category.assigned"></ion-checkbox-->
     </ion-item>
     <ion-card-content class="card-categories-content" (click)="openCategoryPage(category)">

@@ -39,7 +39,7 @@ describe('MyApp Component', () => {
   });
 
   it('should have two pages', () => {
-    expect(component.pages.length).toBe(4);
+    expect(component.pages.length).toBe(3);
   });
 
 });
