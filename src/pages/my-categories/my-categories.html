@@ -13,29 +13,40 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content>
-  <div *ngFor="let category of categories" >
-    <ion-card class="card-categories" *ngIf="category.assigned">
-      <ion-item class="card-categories-item">
-        <ion-label class="card-categories-label">
-          {{category.categoryName}}
-        </ion-label>
-
-        <ion-toggle color="toggle-color" [checked]="category.assigned"></ion-toggle>
-        <!--ion-checkbox color="primary-light" [checked]="category.assigned"></ion-checkbox-->
-      </ion-item>
-      <ion-card-content class="card-categories-content" (click)="openCategoryPage(category)">
-        <ion-row >
-          <ion-col class="card-categories-col" col-6 col-xs *ngFor="let video of category.videos" no-margin>
-            <ion-card no-padding no-margin style="width:100%">
-              <img src={{video.snippet.thumbnails.medium.url}} />
-              <ion-card-content class="card-categories-card-category-content">
-                <p class='ellipsis' align="center"><small>{{video.snippet.title}}</small></p>
-              </ion-card-content>
-            </ion-card>
-          </ion-col>
-        </ion-row>
-      </ion-card-content>
-    </ion-card>
+<ion-content >
+  <div class="no-server-connection" *ngIf="loadFailed">
+    <p style="text-align:center">
+      Cannot connect to the server.
+    </p>
+    <button ion-button block (click)="loadContent()">
+      Try Again
+    </button>
   </div>
+  <p style="text-align:center" *ngIf="userCategories != undefined && userCategories.subscribedCategories.length == 0">
+    You are not subscribed to any category.
+  </p>
+  <ng-container *ngIf="!loadFailed">
+    <ng-container *ngFor="let category of categories">
+      <ion-card class="card-categories" [hidden]="!category.assigned">
+        <ion-item class="card-categories-item">
+          <ion-label class="card-categories-label">
+            {{category.name}}
+          </ion-label>
+          <ion-toggle color="toggle-color" [(ngModel)]="category.assigned" (click)="subscribe(category)"></ion-toggle>
+        </ion-item>
+        <ion-card-content class="card-categories-content" (click)="openCategoryPage(category)">
+          <ion-row >
+            <ion-col class="card-categories-col" col-6 col-xs *ngFor="let video of category.videos | slice:0:4" no-margin>
+              <ion-card no-padding no-margin style="width:100%">
+                <img src={{video.snippet.thumbnails.medium.url}} />
+                <ion-card-content class="card-categories-card-category-content">
+                  <p class='ellipsis' align="center"><small>{{video.snippet.title}}</small></p>
+                </ion-card-content>
+              </ion-card>
+            </ion-col>
+          </ion-row>
+        </ion-card-content>
+      </ion-card>
+    </ng-container>
+  </ng-container>
 </ion-content>
