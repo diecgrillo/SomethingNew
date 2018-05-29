@@ -3,7 +3,7 @@ import { Http, HttpModule, ResponseOptions, BaseRequestOptions, Response } from 
 import { TestBed, inject, async } from '@angular/core/testing';
 import { MockBackend } from '@angular/http/testing';
 
-const data: any = require('../../../mock-data/categories-mock.json');
+const data: any = require('../../../test/mock-data/categories-mock.json');
 
 describe('Provider: VideosByCategory', () => {
 

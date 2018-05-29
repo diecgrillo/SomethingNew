@@ -16,7 +16,7 @@ export class VideosByCategoryProvider {
     console.log('Hello VideosByCategoryProvider');
   }
 
-  load(){
+  load():Promise<any>{
     if (this.data) {
       // already loaded data
       return Promise.resolve(this.data);
@@ -29,10 +29,17 @@ export class VideosByCategoryProvider {
       // Next, we process the data and resolve the promise with the new data.
       this.http.get(this.url)
         .map(res => res.json())
-        .subscribe(results=>{
-          this.data=results;
-          resolve(this.data);
-        });
+        .subscribe(
+          results=>{
+            this.data=results;
+            resolve(this.data);
+          },
+          err => {
+            this.data = undefined;
+            resolve(this.data);
+            console.log(err);
+          }
+        );
     });
   }
 
