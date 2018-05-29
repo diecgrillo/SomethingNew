@@ -50,6 +50,7 @@
     "@types/node": "^10.0.8",
     "angular2-template-loader": "^0.6.2",
     "html-loader": "^0.5.5",
+    "ionic3-mocks": "^0.11.22",
     "istanbul-instrumenter-loader": "^3.0.1",
     "jasmine": "^3.1.0",
     "jasmine-spec-reporter": "^4.2.1",

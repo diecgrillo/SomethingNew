@@ -17,6 +17,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { YoutubePipe } from '../pipes/youtube/youtube';
 import { VideosByCategoryProvider } from '../providers/videos-by-category/videos-by-category';
+import { UserInfoProvider } from '../providers/user-info/user-info';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { VideosByCategoryProvider } from '../providers/videos-by-category/videos
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    VideosByCategoryProvider
+    VideosByCategoryProvider,
+    UserInfoProvider
   ]
 })
 export class AppModule {}

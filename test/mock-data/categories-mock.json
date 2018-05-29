@@ -1,0 +1,1049 @@
+[
+    {
+        "name": "software development",
+        "videos": [
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "JAk2Nn6hD4g"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/JAk2Nn6hD4g/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/JAk2Nn6hD4g/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/JAk2Nn6hD4g/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCpDrDK9jZsT67SkIkJSRscw",
+                    "channelTitle": "Zonopact, Inc.",
+                    "description": "",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2016-05-27T14:07:38.000Z",
+                    "title": "Zonopact   An Innovative Software Development Company HD"
+                },
+                "_id": "5b0a9732b9c44b253834a3d3",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/krTPE3o7w4cNSDk9KxLT6J4hI-Q\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "rdWDsMUFgPc"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/rdWDsMUFgPc/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/rdWDsMUFgPc/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/rdWDsMUFgPc/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCBVCi5JbYmfG3q5MEuoWdOw",
+                    "channelTitle": "Udacity",
+                    "description": "Watch on Udacity: https://www.udacity.com/course/viewer#!/c-ud805/l-1723229004/m-486808626 Check out the full Advanced Operating Systems course for ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2015-02-23T19:57:11.000Z",
+                    "title": "Tools of the Trade - Georgia Tech - Software Development Process"
+                },
+                "_id": "5b0a9732b9c44b253834a3d4",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/2jb-rKwbXimLWWuquekXWLyS9yA\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "S-JUXozidgE"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/S-JUXozidgE/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/S-JUXozidgE/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/S-JUXozidgE/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCgZdYxwwsdjO1hwTnZMIWLQ",
+                    "channelTitle": "Custom Software by Preston",
+                    "description": "",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2016-02-04T16:42:08.000Z",
+                    "title": "Who owns the Software Development Code when working with CSPreston?"
+                },
+                "_id": "5b0a9732b9c44b253834a3d5",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/YNf6NU27JA6hkvSbncAWm-6S3y4\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "8VA_4-ZOGsg"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/8VA_4-ZOGsg/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/8VA_4-ZOGsg/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/8VA_4-ZOGsg/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCnnbTacAqb6p6jJcGM2pU5A",
+                    "channelTitle": "Green River College",
+                    "description": "Learn the latest web and mobile technologies while working with clients, users, and teammates designing solutions to current technology problems in this ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2017-06-08T23:46:46.000Z",
+                    "title": "Software Development - Bachelor's Degree Program"
+                },
+                "_id": "5b0a9732b9c44b253834a3d6",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/malNWpEzDc40Qbfa_ySsXuaiV0U\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "qXPTDM-WuHQ"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/qXPTDM-WuHQ/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/qXPTDM-WuHQ/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/qXPTDM-WuHQ/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCva_nnU2fS8zsgolIUVoGQw",
+                    "channelTitle": "rozdoum",
+                    "description": "Enjoy watching a promo-video about Ukrainian IT Outsourcing Company with full cycle of software development. http://rozdoum.com/home.html Company ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2015-10-30T17:10:12.000Z",
+                    "title": "Software Development Company Rozdoum - Promo Video"
+                },
+                "_id": "5b0a9732b9c44b253834a3d7",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/Kl3h-VHjKpv9-5GatB3wmyO359c\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "JfB4ffrooqI"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/JfB4ffrooqI/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/JfB4ffrooqI/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/JfB4ffrooqI/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCuQ0uJuCSfRdq1Q4PKvO6LA",
+                    "channelTitle": "Fife College",
+                    "description": "Students from various high schools in Fife talk about their experience on the Foundation apprenticeship software development course at Fife College.",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2016-12-20T11:46:27.000Z",
+                    "title": "Foundation Apprenticeships  - Software Development"
+                },
+                "_id": "5b0a9732b9c44b253834a3d8",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/3t8dxWfwPneXUFOBHsXijEjrgng\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "5oPq02yiNqg"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/5oPq02yiNqg/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/5oPq02yiNqg/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/5oPq02yiNqg/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCdfpyKqliKrSgKfg8gUQd4Q",
+                    "channelTitle": "PGS Software",
+                    "description": "Nearshore software development gets stronger in Poland. Visit http://www.pgs-soft.com and meet PGS Software -- a team of young, talented and dedicated ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2012-08-14T08:57:41.000Z",
+                    "title": "Nearshore Software Development in Poland -- PGS Software"
+                },
+                "_id": "5b0a9732b9c44b253834a3d9",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/TV6efy4benVGNadRZyAb3BmFP80\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "X-uFFR68Kgs"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/X-uFFR68Kgs/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/X-uFFR68Kgs/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/X-uFFR68Kgs/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCBVCi5JbYmfG3q5MEuoWdOw",
+                    "channelTitle": "Udacity",
+                    "description": "Watch on Udacity: https://www.udacity.com/course/viewer#!/c-ud805/l-1719379003/m-547028668 Check out the full Advanced Operating Systems course for ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2015-02-23T19:55:06.000Z",
+                    "title": "Classic Mistakes: People - Georgia Tech - Software Development Process"
+                },
+                "_id": "5b0a9732b9c44b253834a3da",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/WjecjWhHjnJIsoc5nXhJxAOGOiM\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "WrqHCPkyHtM"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/WrqHCPkyHtM/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/WrqHCPkyHtM/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/WrqHCPkyHtM/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCBVCi5JbYmfG3q5MEuoWdOw",
+                    "channelTitle": "Udacity",
+                    "description": "Watch on Udacity: https://www.udacity.com/course/viewer#!/c-ud805/l-3626359166/m-519858571 Check out the full Advanced Operating Systems course for ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2015-02-23T19:51:17.000Z",
+                    "title": "Finite State Machines Example - Georgia Tech - Software Development Process"
+                },
+                "_id": "5b0a9732b9c44b253834a3db",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/zVeetkKgbYqyYprqBNKUMuzvrR8\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "6bX2EPI-BqE"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/6bX2EPI-BqE/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/6bX2EPI-BqE/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/6bX2EPI-BqE/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCBVCi5JbYmfG3q5MEuoWdOw",
+                    "channelTitle": "Udacity",
+                    "description": "Watch on Udacity: https://www.udacity.com/course/viewer#!/c-ud805/l-1777008537/m-657128552 Check out the full Advanced Operating Systems course for ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2015-02-23T19:53:01.000Z",
+                    "title": "What is Software Architecture? - Georgia Tech - Software Development Process"
+                },
+                "_id": "5b0a9732b9c44b253834a3dc",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/sx4A7RaipB7GmVc_Y3h6X5h_8XE\"",
+                "kind": "youtube#searchResult"
+            }
+        ],
+        "_id": "5b0a9733b9c44b253834a3dd",
+        "updatedAt": "2018-05-27T11:32:03.010Z",
+        "__v": 0,
+        "createdAt": "2018-05-27T11:32:03.010Z"
+    },
+    {
+        "name": "cloud computing",
+        "videos": [
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "lsZZEL8uIpE"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/lsZZEL8uIpE/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/lsZZEL8uIpE/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/lsZZEL8uIpE/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCHPbKlg7bN_00Eslit1f8EQ",
+                    "channelTitle": "ngamen sastra",
+                    "description": "CBN Cloud adalah virtualisasi dari infrastruktur, platform dan perangkat lunak melalui Internet, yang memungkinkan perusahaan untuk memiliki sumber-sumber ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2012-04-26T11:23:45.000Z",
+                    "title": "CBN CLOUD COMPUTING"
+                },
+                "_id": "5b0a9741b9c44b253834a3de",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/x4sAS4kCI4y6wlovz0MNZpl8wY8\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "tUJET9_PSFs"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/tUJET9_PSFs/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/tUJET9_PSFs/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/tUJET9_PSFs/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCCWCoPEMOSKPAJhTj9NU8HA",
+                    "channelTitle": "Michelle Lowe",
+                    "description": "Any experts on clouds out there? Are these natural clouds?",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2018-05-24T08:18:17.000Z",
+                    "title": "Chemtrails or natural cloud formation? 🌥"
+                },
+                "_id": "5b0a9741b9c44b253834a3df",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/I7Q9TLGBGyefoZi4BQbFyKQHss0\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "PRkLyE7mZR4"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/PRkLyE7mZR4/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/PRkLyE7mZR4/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/PRkLyE7mZR4/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCYhbILQe1xKAF2cuGSjo5IA",
+                    "channelTitle": "Portal Académico CCH",
+                    "description": "Edición con fines educativos. Cloud Computing. Recuperado de http://www.youtube.com/watch?feature=player_embedded&v=VOn6tg3e1t4 (julio, 2013).",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2013-07-30T23:32:30.000Z",
+                    "title": "Cloud Computing"
+                },
+                "_id": "5b0a9741b9c44b253834a3e0",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/mV57BQFZ695KCVqnvtoa3ztz3h4\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "99YvtGUtKT8"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/99YvtGUtKT8/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/99YvtGUtKT8/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/99YvtGUtKT8/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UC5jLzk__hE4GZK65cOI11jQ",
+                    "channelTitle": "Lava Protocols",
+                    "description": "This video gives you a glimpse of what it means to be a part of the Lava Protocols` Team: unique working environment riding the Cloud; passionate, young, ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2014-01-06T03:30:35.000Z",
+                    "title": "Careers in Cloud Computing - Join Lava Protocols"
+                },
+                "_id": "5b0a9741b9c44b253834a3e1",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/PvHBhk8zvFEl0RiZM-DLcCHvIYc\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "BcFYa9cCcgc"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/BcFYa9cCcgc/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/BcFYa9cCcgc/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/BcFYa9cCcgc/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCbBvT2MifpKoD9syrgCJxuA",
+                    "channelTitle": "Marco Andrade",
+                    "description": "Aprenda os conceitos fundamentais de Cloud Computing e destaque-se no mercado de trabalho! LINK PARA ACESSAR A PLATAFORMA ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2018-02-10T22:55:16.000Z",
+                    "title": "Curso Certificação Computação em Nuvem Online -  Cloud Computing"
+                },
+                "_id": "5b0a9741b9c44b253834a3e2",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/Vt7DAkYt133Qo6aYk0vTxfr4JQI\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "LNfjbw7VcQc"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/LNfjbw7VcQc/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/LNfjbw7VcQc/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/LNfjbw7VcQc/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UC9TURsArXAssR3_1a1RUCHw",
+                    "channelTitle": "Microsoft Australia",
+                    "description": "Retail sector organisations which fail to transform themselves run the risk of being the canary in technology's coalmine. But Scentre Group is instead soaring on ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2017-03-27T21:45:01.000Z",
+                    "title": "Windows 10 and cloud computing spearhead Scentre Group’s retail transformation"
+                },
+                "_id": "5b0a9741b9c44b253834a3e3",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/TK4byCRt9TbwkPm7XPcFrDhq5zc\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "QL4mds7INww"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/QL4mds7INww/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/QL4mds7INww/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/QL4mds7INww/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCXO6gQhAVpvAobSkuBMQWXw",
+                    "channelTitle": "MCC Project",
+                    "description": "Mobile Cloud Computing (MCC) : Solution to Finish your Task in short time .",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2014-12-25T14:10:31.000Z",
+                    "title": "Mobile Cloud Computing (MCC) Project Simulation"
+                },
+                "_id": "5b0a9741b9c44b253834a3e4",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/sVPGk9D5JsRs_pkDe1Jf1fOKYx0\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "M1_GoKnsiYM"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/M1_GoKnsiYM/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/M1_GoKnsiYM/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/M1_GoKnsiYM/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCoimM6mP3FpNSYy6LlP50iA",
+                    "channelTitle": "sj teo",
+                    "description": "ET1542 module mini project by CET students. Video by Students: NgauKT P7104185, TiuYH P7251171, YapSB P7251167, NgPH P7186423, TengKC ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2016-08-09T09:38:42.000Z",
+                    "title": "IoT & Cloud Computing Student Project made with ESP8266 nodemcu, AWS IoT, R, and Plotly"
+                },
+                "_id": "5b0a9741b9c44b253834a3e5",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/tfzwIbkxSOC30b8i066rDL4kVHU\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "GY8K_bK2aXI"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/GY8K_bK2aXI/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/GY8K_bK2aXI/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/GY8K_bK2aXI/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCCGqeInWR6dt7Kg8cgHSaHg",
+                    "channelTitle": "gridgain",
+                    "description": "Have You Ever Wondered?",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2011-03-30T19:06:33.000Z",
+                    "title": "GridGain - High Performance Cloud Computing"
+                },
+                "_id": "5b0a9741b9c44b253834a3e6",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/GXSaIJ0Gggtnr12PcS54J3fcUkc\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "_twpgwUW5q8"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/_twpgwUW5q8/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/_twpgwUW5q8/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/_twpgwUW5q8/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCEYDxL7QSK1osU32AYcpRsw",
+                    "channelTitle": "rhipe",
+                    "description": "http://www.rhipe.com/",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2014-12-01T04:14:25.000Z",
+                    "title": "rhipe Cloud Computing - Revolution"
+                },
+                "_id": "5b0a9741b9c44b253834a3e7",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/fhja_iPgYiIUCtqacuMKxuIePCs\"",
+                "kind": "youtube#searchResult"
+            }
+        ],
+        "_id": "5b0a9741b9c44b253834a3e8",
+        "updatedAt": "2018-05-27T11:32:17.184Z",
+        "__v": 0,
+        "createdAt": "2018-05-27T11:32:17.184Z"
+    },
+    {
+        "name": "bitcoin",
+        "videos": [
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "YKRC5CEKy94"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/YKRC5CEKy94/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/YKRC5CEKy94/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/YKRC5CEKy94/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UC6B6b5zTTYlRQSDPAGtQHhg",
+                    "channelTitle": "Crypto World News",
+                    "description": "Watching BTC/USD on Bitfinex when suddenly we get some interesting movement. -- Watch live at https://www.twitch.tv/cryptoworldnews.",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2018-04-28T09:20:38.000Z",
+                    "title": "BITCOIN'S MINUTE OF MADNESS"
+                },
+                "_id": "5b0a9749b9c44b253834a3e9",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/Rdfv2a8MiT01ZlMywXMBorguY64\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "-YuE2g09Q4w"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/-YuE2g09Q4w/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/-YuE2g09Q4w/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/-YuE2g09Q4w/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCo1Bdbn7X7z5vV5Y35lXBPQ",
+                    "channelTitle": "GENERAL BYTES",
+                    "description": "This is the first Bitcoin powered RedBull machine in the world! Donated by RedBull, decorated by Paralelni Polis and modified for bitcoin by MakersLab.cz and ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2016-10-12T11:39:45.000Z",
+                    "title": "GB Bitcoin powered RedBull machine"
+                },
+                "_id": "5b0a9749b9c44b253834a3ea",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/Q39RKsqBpZtkhM96Q3rjE7hfR_w\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "ZqEdBCKFPAo"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/ZqEdBCKFPAo/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/ZqEdBCKFPAo/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/ZqEdBCKFPAo/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCQv44qD9R5Ae6Z3iUeZm7iQ",
+                    "channelTitle": "ABC 10 News",
+                    "description": "The first ever Bitcoin ATM was unveiled Thursday, putting San Diego at the forefront of this new technology.",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2013-05-03T03:09:31.000Z",
+                    "title": "World's first ever Bitcoin ATM unveiled in San Diego"
+                },
+                "_id": "5b0a9749b9c44b253834a3eb",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/OvxAJyrKcMtM7jk1xrVPCjPBDVc\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "fRNY8Ck9Dao"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/fRNY8Ck9Dao/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/fRNY8Ck9Dao/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/fRNY8Ck9Dao/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCoWvWMmXMPXiu1T9B1ZekOA",
+                    "channelTitle": "Money Charts",
+                    "description": "CONTENT DISCLAIMER: I am not a financial advisor nor do I have a CMT certificate or anything of the like. Any decisions you make on in your investing is ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2018-02-05T14:22:50.000Z",
+                    "title": "The 2½ Minute Warning {Bitcoin below $7,500} 2018.02.05"
+                },
+                "_id": "5b0a9749b9c44b253834a3ec",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/cJeswwxR5snK-0zMxCRh4e9q3pI\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "Xn8Xa0Ny5jU"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/Xn8Xa0Ny5jU/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/Xn8Xa0Ny5jU/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/Xn8Xa0Ny5jU/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UC2tXxMpewnaXGIR8TJaZGZA",
+                    "channelTitle": "FX Empire",
+                    "description": "Bitcoin markets fell significantly during the day on Monday, Tuesday, and now Wednesday... For the full article go to ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2018-05-24T04:13:00.000Z",
+                    "title": "Bitcoin (BTC/USD) Technical Analysis, May 24, 2018 by FXEmpire.com"
+                },
+                "_id": "5b0a9749b9c44b253834a3ed",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/WtuJ9c90nw3L-frzMZlj5Yw7B5A\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "43YKdh3RvYU"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/43YKdh3RvYU/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/43YKdh3RvYU/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/43YKdh3RvYU/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCS-PK1cRtdeVupzhzxQ5FSA",
+                    "channelTitle": "CryptoCoin.News",
+                    "description": "Breaking News: Bitcoin Gold Hacked Subscribe: http://bit.ly/CryptoCoinNewsYT An unidentified hacker has executed several \"double spend\" attacks on the ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2018-05-24T20:08:52.000Z",
+                    "title": "Breaking News: Bitcoin Gold Hacked"
+                },
+                "_id": "5b0a9749b9c44b253834a3ee",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/r_f8Rusg9cb2u3neWp44xaPCGTs\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "Blh8PFPLqoU"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/Blh8PFPLqoU/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/Blh8PFPLqoU/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/Blh8PFPLqoU/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UC4ei_1_aeiNeSW66Ae1hmxA",
+                    "channelTitle": "giffinoq edington",
+                    "description": "Generate Bitcoin Generate Bitcoin 0.02 - 0.5 Bitcoin Daily (Update 2018) Bitcoin Ethereum Litecoin Monero Ripple --------------------------- forza horizon 3 will it ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2018-05-24T23:05:09.000Z",
+                    "title": "Generate Bitcoin 0.02 - 0.5 Bitcoin Daily (Update 2018) - forza horizon 3 will it willie"
+                },
+                "_id": "5b0a9749b9c44b253834a3ef",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/6LXhbnhc4G6vzoYlSg5acoICMsk\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "ugaa_NWQjDM"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/ugaa_NWQjDM/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/ugaa_NWQjDM/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/ugaa_NWQjDM/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UC9v9erBEru5y4c3FA0wehEw",
+                    "channelTitle": "NEWSBTC",
+                    "description": "This news, not investment advice. Bitcoin briefly fell below $7400 before climbing higher again, but still remains well under $8000. The US Justice department is ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2018-05-24T18:25:41.000Z",
+                    "title": "Bitcoin Price Manipulation Probe, Coinbase Acquires Paradex - May 24th Cryptocurrency News"
+                },
+                "_id": "5b0a9749b9c44b253834a3f0",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/WSnLAkCA0SQSMKGz0FR063c-wAA\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "14vqltTH4XA"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/14vqltTH4XA/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/14vqltTH4XA/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/14vqltTH4XA/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCnEIBhuAteTVRkjiC146KPw",
+                    "channelTitle": "ClayTrader Video Charts",
+                    "description": "Bitcoin Chart Technical Analysis for 05-18-18 Subscribe to My MAIN Channel Here: https://www.youtube.com/claytrader/ Free Guide - The 5 Tools I Use To Find ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2018-05-18T19:55:20.000Z",
+                    "title": "Bitcoin Chart Technical Analysis for 05-18-18"
+                },
+                "_id": "5b0a9749b9c44b253834a3f1",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/M6Ur4hm_uf2_uSbafmZzE7leEnw\"",
+                "kind": "youtube#searchResult"
+            },
+            {
+                "v_id": {
+                    "kind": "youtube#video",
+                    "videoId": "qxnkeT_dvtY"
+                },
+                "snippet": {
+                    "thumbnails": {
+                        "default": {
+                            "height": 90,
+                            "url": "https://i.ytimg.com/vi/qxnkeT_dvtY/default.jpg",
+                            "width": 120
+                        },
+                        "high": {
+                            "height": 360,
+                            "url": "https://i.ytimg.com/vi/qxnkeT_dvtY/hqdefault.jpg",
+                            "width": 480
+                        },
+                        "medium": {
+                            "height": 180,
+                            "url": "https://i.ytimg.com/vi/qxnkeT_dvtY/mqdefault.jpg",
+                            "width": 320
+                        }
+                    },
+                    "channelId": "UCaAHVZ-yrxH5gOFDNBiCvFQ",
+                    "channelTitle": "Crypto Crunch App",
+                    "description": "In a conversation with CNBC, the Schmidt Natural's co-founder and chief executive Michael Cammarata stated that the decision to embrace crypto payment was ...",
+                    "liveBroadcastContent": "none",
+                    "publishedAt": "2018-05-19T17:02:17.000Z",
+                    "title": "Unilever Owned Schmidt’s Naturals Adds Bitcoin Payment Support- CNBC interview"
+                },
+                "_id": "5b0a9749b9c44b253834a3f2",
+                "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/k5IqwW46IJOWpAs2qCjW8wSZ5Tg\"",
+                "kind": "youtube#searchResult"
+            }
+        ],
+        "_id": "5b0a9749b9c44b253834a3f3",
+        "updatedAt": "2018-05-27T11:32:25.142Z",
+        "__v": 0,
+        "createdAt": "2018-05-27T11:32:25.142Z"
+    }
+]
