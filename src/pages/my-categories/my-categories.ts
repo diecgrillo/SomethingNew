@@ -56,7 +56,10 @@ export class MyCategoriesPage {
 
         //TODO Check if user is authenticated
 
-        this.userInfoProvider.loadFromLocalStorage().then(data => {
+        this.userInfoProvider.loadFromLocalStorage().then((data:{
+          subscribedCategories : string[],
+          watchedVideos : string[]
+        }) => {
 
           this.userCategories = data;
 

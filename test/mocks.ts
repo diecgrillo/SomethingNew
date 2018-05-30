@@ -59,3 +59,17 @@ export class NavControllerMock {
   public push(arg1:any, arg2:any): any {}
 
 }
+
+export class StorageMock {
+
+  userInfo:any=require('./mock-data/user-info-mock.json');
+
+  public get(key:any):Promise<any> {
+    return Promise.resolve(this.userInfo);
+  }
+
+  public set(key:any, value:any):Promise<any> {
+    return Promise.resolve();
+  }
+
+}

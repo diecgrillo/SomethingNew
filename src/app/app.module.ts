@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
+import { IonicStorageModule } from '@ionic/storage';
 
 import { MyApp } from './app.component';
 import { CategoriesPage } from '../pages/categories/categories';
@@ -36,6 +37,7 @@ import { UserInfoProvider } from '../providers/user-info/user-info';
     BrowserModule,
     HttpModule,
     IonicModule.forRoot(MyApp),
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -54,7 +56,8 @@ import { UserInfoProvider } from '../providers/user-info/user-info';
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     VideosByCategoryProvider,
-    UserInfoProvider
+    UserInfoProvider,
+    IonicStorageModule
   ]
 })
 export class AppModule {}

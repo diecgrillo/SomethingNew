@@ -45,7 +45,7 @@ export class CategoriesPage {
     loading.present().then( () =>
     {
       this.videosByCategoryProvider.load().then(data => {
-        console.log("data="+data)
+
         if(data){
           this.loadFailed = false;
         } else {
@@ -57,8 +57,11 @@ export class CategoriesPage {
 
         //TODO Check if user is authenticated
 
-        this.userInfoProvider.loadFromLocalStorage().then(data => {
-          console.log(data);
+        this.userInfoProvider.loadFromLocalStorage().then((data:{
+          subscribedCategories : string[],
+          watchedVideos : string[]
+        }) => {
+
           this.userCategories = data;
 
           for(let i=0;i < this.categories.length; i++)
@@ -105,8 +108,7 @@ export class CategoriesPage {
   }
 
   openCategoryPage(category) {
-    console.log(category.categoryName);
-    this.navCtrl.push(CategoryPage, {category: category});
+      this.navCtrl.push(CategoryPage, {category: category});
   }
 
   yesHandler(category) {
@@ -118,6 +120,7 @@ export class CategoriesPage {
       if (idx != -1) {
         this.userCategories.subscribedCategories.splice(idx, 1);
       } else {
+        //TODO handle this error
         console.log("Error");
       }
     }
