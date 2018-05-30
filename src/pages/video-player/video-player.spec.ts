@@ -1,21 +1,25 @@
 import { async, ComponentFixture, inject, TestBed, fakeAsync } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
-import { CategoryPage } from './category';
+import { VideoPlayerPage } from './video-player';
 import { IonicModule, Platform, NavController, LoadingController, NavParams } from 'ionic-angular/index';
 import { UserInfoMock, LoadingControllerMock, NavControllerMock, NavParamsMock } from '../../../test/mocks'
 import { UserInfoProvider } from '../../providers/user-info/user-info'
+import { YoutubePipe } from '../../pipes/youtube/youtube';
 
-describe('CategoryPage', () => {
+describe('VideoPlayerPage', () => {
 
-  let comp: CategoryPage;
-  let fixture: ComponentFixture<CategoryPage>;
+  let comp: VideoPlayerPage;
+  let fixture: ComponentFixture<VideoPlayerPage>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [CategoryPage],
+      declarations: [
+        VideoPlayerPage,
+        YoutubePipe
+      ],
       imports: [
-        IonicModule.forRoot(CategoryPage)
+        IonicModule.forRoot(VideoPlayerPage)
       ],
       providers: [
         {
@@ -40,16 +44,18 @@ describe('CategoryPage', () => {
 
   beforeEach(() => {
     spyOn(NavParamsMock.prototype, 'get').and.callThrough();
-    fixture = TestBed.createComponent(CategoryPage);
+    fixture = TestBed.createComponent(VideoPlayerPage);
     comp = fixture.componentInstance;
   });
 
-  it('should call "get" function from NavParams to retrieve the "category" property, and should set the category global variable', () => {
+  it('should call "get" function from NavParams to retrieve the "category" and "video" properties, and should set the category and currentVideo global variables', () => {
     expect(NavParamsMock.prototype.get).toHaveBeenCalledWith("category");
+    expect(NavParamsMock.prototype.get).toHaveBeenCalledWith("video");
     expect(comp.navParams.get('category')).toEqual(comp.category);
+    expect(comp.navParams.get('video')).toEqual(comp.currentVideo);
   });
 
-  it('should render in the screen all videos that belong to this category, except those that the user has already watched', (done) => {
+  it('should render in the screen all videos that belong to this category, except those that the user has already watched or the current video', (done) => {
     expect(comp.userCategories).toBeUndefined();
     comp.ionViewDidLoad();
 
@@ -65,14 +71,19 @@ describe('CategoryPage', () => {
         expect(comp.userCategories).not.toBeNull();
 
         let videos:any[] = comp.category.videos;
+        let currentVideo:any = comp.currentVideo;
         let userCategories = comp.userCategories;
         let de: DebugElement[] = fixture.debugElement.queryAll(By.css('.video-item'));
 
-        let watchedVideos:number = 0;
+        let watchedVideosCount:number = 0;
+        let currentVideoCount:number = 0;
 
         for(let i=0, j=0 ;i<de.length, j<videos.length;j++){
           if(comp.userCategories.watchedVideos.indexOf(videos[j]._id) == -1){
-
+            if(videos[j]._id === currentVideo._id){
+              currentVideoCount++;
+              continue;
+            }
             let imageElement:HTMLElement = de[i].query(By.css('img')).nativeElement;
             let h4Element:HTMLElement = de[i].query(By.css('h4')).nativeElement;
             let pElement:HTMLElement = de[i].query(By.css('p')).nativeElement;
@@ -83,16 +94,19 @@ describe('CategoryPage', () => {
 
             i++;
           } else {
-            watchedVideos++;
+            watchedVideosCount++;
           }
         }
 
-        expect(watchedVideos+de.length).toEqual(videos.length);
+        expect(watchedVideosCount).toBeGreaterThan(0);
+        expect(currentVideoCount).toEqual(1);
+        expect(watchedVideosCount+de.length+currentVideoCount).toEqual(videos.length);
 
         done();
       });
     });
   });
+
   it('the function isWatchedVideo should return true if the user has already '
     + 'watched the video, otherwise false', () => {
 

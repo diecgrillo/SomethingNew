@@ -77,10 +77,15 @@ export class StorageMock {
 export class NavParamsMock {
 
   category:any=require('./mock-data/category-mock.json');
+  video:any=require('./mock-data/video-mock.json');
 
   public get(key:any) {
     if(key === 'category'){
       return this.category;
+    } else if(key === 'video'){
+      return this.video;
+    } else {
+      return null;
     }
   }
 }

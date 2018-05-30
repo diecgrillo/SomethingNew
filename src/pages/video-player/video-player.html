@@ -14,16 +14,18 @@
 
 
 <ion-content>
-  <iframe [src]="video.id.videoId | youtube" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="width:100%;height:auto%"></iframe>
+  <iframe [src]="currentVideo.v_id.videoId | youtube" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="width:100%;height:auto%"></iframe>
   <ion-list no-padding >
     <ion-item-divider color="primary-dark"> Watch Next </ion-item-divider>
-    <ion-item *ngFor="let video of category.videos" style="padding-left:5px" text-wrap (click)="openCategoryPage(video)">
-      <ion-thumbnail item-start>
-        <img src={{video.snippet.thumbnails.default.url}} style="width:auto">
-      </ion-thumbnail>
-      <h4 class="ellipsis-3">{{video.snippet.title}}</h4>
-      <p class="ellipsis-2" style="">{{video.snippet.description}}</p>
-    </ion-item>
+    <ng-container *ngFor="let video of category.videos">
+      <ion-item class="video-item" *ngIf="(!isWatchedVideo(video._id) && (video._id != currentVideo._id))" text-wrap (click)="openCategoryPage(video)">
+        <ion-thumbnail item-start>
+          <img src={{video.snippet.thumbnails.default.url}} style="width:auto">
+        </ion-thumbnail>
+        <h4 class="ellipsis-3">{{video.snippet.title}}</h4>
+        <p class="ellipsis-2" style="">{{video.snippet.description}}</p>
+      </ion-item>
+    </ng-container>
   </ion-list>
   <!--ion-card *ngFor="let video of category.videos" style="background-color:#d6d6f5;padding:5px">
     <img src={{video.snippet.thumbnails.medium.url}}/>
