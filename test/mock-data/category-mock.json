@@ -1,0 +1,349 @@
+{
+    "name": "software development",
+    "videos": [
+        {
+            "v_id": {
+                "kind": "youtube#video",
+                "videoId": "JAk2Nn6hD4g"
+            },
+            "snippet": {
+                "thumbnails": {
+                    "default": {
+                        "height": 90,
+                        "url": "https://i.ytimg.com/vi/JAk2Nn6hD4g/default.jpg",
+                        "width": 120
+                    },
+                    "high": {
+                        "height": 360,
+                        "url": "https://i.ytimg.com/vi/JAk2Nn6hD4g/hqdefault.jpg",
+                        "width": 480
+                    },
+                    "medium": {
+                        "height": 180,
+                        "url": "https://i.ytimg.com/vi/JAk2Nn6hD4g/mqdefault.jpg",
+                        "width": 320
+                    }
+                },
+                "channelId": "UCpDrDK9jZsT67SkIkJSRscw",
+                "channelTitle": "Zonopact, Inc.",
+                "description": "",
+                "liveBroadcastContent": "none",
+                "publishedAt": "2016-05-27T14:07:38.000Z",
+                "title": "Zonopact   An Innovative Software Development Company HD"
+            },
+            "_id": "5b0a9732b9c44b253834a3d3",
+            "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/krTPE3o7w4cNSDk9KxLT6J4hI-Q\"",
+            "kind": "youtube#searchResult"
+        },
+        {
+            "v_id": {
+                "kind": "youtube#video",
+                "videoId": "rdWDsMUFgPc"
+            },
+            "snippet": {
+                "thumbnails": {
+                    "default": {
+                        "height": 90,
+                        "url": "https://i.ytimg.com/vi/rdWDsMUFgPc/default.jpg",
+                        "width": 120
+                    },
+                    "high": {
+                        "height": 360,
+                        "url": "https://i.ytimg.com/vi/rdWDsMUFgPc/hqdefault.jpg",
+                        "width": 480
+                    },
+                    "medium": {
+                        "height": 180,
+                        "url": "https://i.ytimg.com/vi/rdWDsMUFgPc/mqdefault.jpg",
+                        "width": 320
+                    }
+                },
+                "channelId": "UCBVCi5JbYmfG3q5MEuoWdOw",
+                "channelTitle": "Udacity",
+                "description": "Watch on Udacity: https://www.udacity.com/course/viewer#!/c-ud805/l-1723229004/m-486808626 Check out the full Advanced Operating Systems course for ...",
+                "liveBroadcastContent": "none",
+                "publishedAt": "2015-02-23T19:57:11.000Z",
+                "title": "Tools of the Trade - Georgia Tech - Software Development Process"
+            },
+            "_id": "5b0a9732b9c44b253834a3d4",
+            "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/2jb-rKwbXimLWWuquekXWLyS9yA\"",
+            "kind": "youtube#searchResult"
+        },
+        {
+            "v_id": {
+                "kind": "youtube#video",
+                "videoId": "S-JUXozidgE"
+            },
+            "snippet": {
+                "thumbnails": {
+                    "default": {
+                        "height": 90,
+                        "url": "https://i.ytimg.com/vi/S-JUXozidgE/default.jpg",
+                        "width": 120
+                    },
+                    "high": {
+                        "height": 360,
+                        "url": "https://i.ytimg.com/vi/S-JUXozidgE/hqdefault.jpg",
+                        "width": 480
+                    },
+                    "medium": {
+                        "height": 180,
+                        "url": "https://i.ytimg.com/vi/S-JUXozidgE/mqdefault.jpg",
+                        "width": 320
+                    }
+                },
+                "channelId": "UCgZdYxwwsdjO1hwTnZMIWLQ",
+                "channelTitle": "Custom Software by Preston",
+                "description": "",
+                "liveBroadcastContent": "none",
+                "publishedAt": "2016-02-04T16:42:08.000Z",
+                "title": "Who owns the Software Development Code when working with CSPreston?"
+            },
+            "_id": "5b0a9732b9c44b253834a3d5",
+            "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/YNf6NU27JA6hkvSbncAWm-6S3y4\"",
+            "kind": "youtube#searchResult"
+        },
+        {
+            "v_id": {
+                "kind": "youtube#video",
+                "videoId": "8VA_4-ZOGsg"
+            },
+            "snippet": {
+                "thumbnails": {
+                    "default": {
+                        "height": 90,
+                        "url": "https://i.ytimg.com/vi/8VA_4-ZOGsg/default.jpg",
+                        "width": 120
+                    },
+                    "high": {
+                        "height": 360,
+                        "url": "https://i.ytimg.com/vi/8VA_4-ZOGsg/hqdefault.jpg",
+                        "width": 480
+                    },
+                    "medium": {
+                        "height": 180,
+                        "url": "https://i.ytimg.com/vi/8VA_4-ZOGsg/mqdefault.jpg",
+                        "width": 320
+                    }
+                },
+                "channelId": "UCnnbTacAqb6p6jJcGM2pU5A",
+                "channelTitle": "Green River College",
+                "description": "Learn the latest web and mobile technologies while working with clients, users, and teammates designing solutions to current technology problems in this ...",
+                "liveBroadcastContent": "none",
+                "publishedAt": "2017-06-08T23:46:46.000Z",
+                "title": "Software Development - Bachelor's Degree Program"
+            },
+            "_id": "5b0a9732b9c44b253834a3d6",
+            "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/malNWpEzDc40Qbfa_ySsXuaiV0U\"",
+            "kind": "youtube#searchResult"
+        },
+        {
+            "v_id": {
+                "kind": "youtube#video",
+                "videoId": "qXPTDM-WuHQ"
+            },
+            "snippet": {
+                "thumbnails": {
+                    "default": {
+                        "height": 90,
+                        "url": "https://i.ytimg.com/vi/qXPTDM-WuHQ/default.jpg",
+                        "width": 120
+                    },
+                    "high": {
+                        "height": 360,
+                        "url": "https://i.ytimg.com/vi/qXPTDM-WuHQ/hqdefault.jpg",
+                        "width": 480
+                    },
+                    "medium": {
+                        "height": 180,
+                        "url": "https://i.ytimg.com/vi/qXPTDM-WuHQ/mqdefault.jpg",
+                        "width": 320
+                    }
+                },
+                "channelId": "UCva_nnU2fS8zsgolIUVoGQw",
+                "channelTitle": "rozdoum",
+                "description": "Enjoy watching a promo-video about Ukrainian IT Outsourcing Company with full cycle of software development. http://rozdoum.com/home.html Company ...",
+                "liveBroadcastContent": "none",
+                "publishedAt": "2015-10-30T17:10:12.000Z",
+                "title": "Software Development Company Rozdoum - Promo Video"
+            },
+            "_id": "5b0a9732b9c44b253834a3d7",
+            "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/Kl3h-VHjKpv9-5GatB3wmyO359c\"",
+            "kind": "youtube#searchResult"
+        },
+        {
+            "v_id": {
+                "kind": "youtube#video",
+                "videoId": "JfB4ffrooqI"
+            },
+            "snippet": {
+                "thumbnails": {
+                    "default": {
+                        "height": 90,
+                        "url": "https://i.ytimg.com/vi/JfB4ffrooqI/default.jpg",
+                        "width": 120
+                    },
+                    "high": {
+                        "height": 360,
+                        "url": "https://i.ytimg.com/vi/JfB4ffrooqI/hqdefault.jpg",
+                        "width": 480
+                    },
+                    "medium": {
+                        "height": 180,
+                        "url": "https://i.ytimg.com/vi/JfB4ffrooqI/mqdefault.jpg",
+                        "width": 320
+                    }
+                },
+                "channelId": "UCuQ0uJuCSfRdq1Q4PKvO6LA",
+                "channelTitle": "Fife College",
+                "description": "Students from various high schools in Fife talk about their experience on the Foundation apprenticeship software development course at Fife College.",
+                "liveBroadcastContent": "none",
+                "publishedAt": "2016-12-20T11:46:27.000Z",
+                "title": "Foundation Apprenticeships  - Software Development"
+            },
+            "_id": "5b0a9732b9c44b253834a3d8",
+            "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/3t8dxWfwPneXUFOBHsXijEjrgng\"",
+            "kind": "youtube#searchResult"
+        },
+        {
+            "v_id": {
+                "kind": "youtube#video",
+                "videoId": "5oPq02yiNqg"
+            },
+            "snippet": {
+                "thumbnails": {
+                    "default": {
+                        "height": 90,
+                        "url": "https://i.ytimg.com/vi/5oPq02yiNqg/default.jpg",
+                        "width": 120
+                    },
+                    "high": {
+                        "height": 360,
+                        "url": "https://i.ytimg.com/vi/5oPq02yiNqg/hqdefault.jpg",
+                        "width": 480
+                    },
+                    "medium": {
+                        "height": 180,
+                        "url": "https://i.ytimg.com/vi/5oPq02yiNqg/mqdefault.jpg",
+                        "width": 320
+                    }
+                },
+                "channelId": "UCdfpyKqliKrSgKfg8gUQd4Q",
+                "channelTitle": "PGS Software",
+                "description": "Nearshore software development gets stronger in Poland. Visit http://www.pgs-soft.com and meet PGS Software -- a team of young, talented and dedicated ...",
+                "liveBroadcastContent": "none",
+                "publishedAt": "2012-08-14T08:57:41.000Z",
+                "title": "Nearshore Software Development in Poland -- PGS Software"
+            },
+            "_id": "5b0a9732b9c44b253834a3d9",
+            "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/TV6efy4benVGNadRZyAb3BmFP80\"",
+            "kind": "youtube#searchResult"
+        },
+        {
+            "v_id": {
+                "kind": "youtube#video",
+                "videoId": "X-uFFR68Kgs"
+            },
+            "snippet": {
+                "thumbnails": {
+                    "default": {
+                        "height": 90,
+                        "url": "https://i.ytimg.com/vi/X-uFFR68Kgs/default.jpg",
+                        "width": 120
+                    },
+                    "high": {
+                        "height": 360,
+                        "url": "https://i.ytimg.com/vi/X-uFFR68Kgs/hqdefault.jpg",
+                        "width": 480
+                    },
+                    "medium": {
+                        "height": 180,
+                        "url": "https://i.ytimg.com/vi/X-uFFR68Kgs/mqdefault.jpg",
+                        "width": 320
+                    }
+                },
+                "channelId": "UCBVCi5JbYmfG3q5MEuoWdOw",
+                "channelTitle": "Udacity",
+                "description": "Watch on Udacity: https://www.udacity.com/course/viewer#!/c-ud805/l-1719379003/m-547028668 Check out the full Advanced Operating Systems course for ...",
+                "liveBroadcastContent": "none",
+                "publishedAt": "2015-02-23T19:55:06.000Z",
+                "title": "Classic Mistakes: People - Georgia Tech - Software Development Process"
+            },
+            "_id": "5b0a9732b9c44b253834a3da",
+            "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/WjecjWhHjnJIsoc5nXhJxAOGOiM\"",
+            "kind": "youtube#searchResult"
+        },
+        {
+            "v_id": {
+                "kind": "youtube#video",
+                "videoId": "WrqHCPkyHtM"
+            },
+            "snippet": {
+                "thumbnails": {
+                    "default": {
+                        "height": 90,
+                        "url": "https://i.ytimg.com/vi/WrqHCPkyHtM/default.jpg",
+                        "width": 120
+                    },
+                    "high": {
+                        "height": 360,
+                        "url": "https://i.ytimg.com/vi/WrqHCPkyHtM/hqdefault.jpg",
+                        "width": 480
+                    },
+                    "medium": {
+                        "height": 180,
+                        "url": "https://i.ytimg.com/vi/WrqHCPkyHtM/mqdefault.jpg",
+                        "width": 320
+                    }
+                },
+                "channelId": "UCBVCi5JbYmfG3q5MEuoWdOw",
+                "channelTitle": "Udacity",
+                "description": "Watch on Udacity: https://www.udacity.com/course/viewer#!/c-ud805/l-3626359166/m-519858571 Check out the full Advanced Operating Systems course for ...",
+                "liveBroadcastContent": "none",
+                "publishedAt": "2015-02-23T19:51:17.000Z",
+                "title": "Finite State Machines Example - Georgia Tech - Software Development Process"
+            },
+            "_id": "5b0a9732b9c44b253834a3db",
+            "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/zVeetkKgbYqyYprqBNKUMuzvrR8\"",
+            "kind": "youtube#searchResult"
+        },
+        {
+            "v_id": {
+                "kind": "youtube#video",
+                "videoId": "6bX2EPI-BqE"
+            },
+            "snippet": {
+                "thumbnails": {
+                    "default": {
+                        "height": 90,
+                        "url": "https://i.ytimg.com/vi/6bX2EPI-BqE/default.jpg",
+                        "width": 120
+                    },
+                    "high": {
+                        "height": 360,
+                        "url": "https://i.ytimg.com/vi/6bX2EPI-BqE/hqdefault.jpg",
+                        "width": 480
+                    },
+                    "medium": {
+                        "height": 180,
+                        "url": "https://i.ytimg.com/vi/6bX2EPI-BqE/mqdefault.jpg",
+                        "width": 320
+                    }
+                },
+                "channelId": "UCBVCi5JbYmfG3q5MEuoWdOw",
+                "channelTitle": "Udacity",
+                "description": "Watch on Udacity: https://www.udacity.com/course/viewer#!/c-ud805/l-1777008537/m-657128552 Check out the full Advanced Operating Systems course for ...",
+                "liveBroadcastContent": "none",
+                "publishedAt": "2015-02-23T19:53:01.000Z",
+                "title": "What is Software Architecture? - Georgia Tech - Software Development Process"
+            },
+            "_id": "5b0a9732b9c44b253834a3dc",
+            "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/sx4A7RaipB7GmVc_Y3h6X5h_8XE\"",
+            "kind": "youtube#searchResult"
+        }
+    ],
+    "_id": "5b0a9733b9c44b253834a3dd",
+    "updatedAt": "2018-05-27T11:32:03.010Z",
+    "__v": 0,
+    "createdAt": "2018-05-27T11:32:03.010Z"
+}

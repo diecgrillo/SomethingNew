@@ -21,7 +21,7 @@ export class UserInfoMock {
   jsonData:any=require('./mock-data/user-info-mock.json');
   data:any;
 
-  constructor(public http: Http) {
+  constructor() {
   }
 
   loadFromLocalStorage(){
@@ -72,4 +72,15 @@ export class StorageMock {
     return Promise.resolve();
   }
 
+}
+
+export class NavParamsMock {
+
+  category:any=require('./mock-data/category-mock.json');
+
+  public get(key:any) {
+    if(key === 'category'){
+      return this.category;
+    }
+  }
 }
