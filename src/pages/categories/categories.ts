@@ -3,6 +3,7 @@ import { IonicPage, NavController, LoadingController, AlertController } from 'io
 import { CategoryPage } from '../category/category';
 import { VideosByCategoryProvider } from '../../providers/videos-by-category/videos-by-category';
 import { UserInfoProvider } from '../../providers/user-info/user-info';
+import { NotificationsProvider } from '../../providers/notifications/notifications';
 
 /**
  * Generated class for the CategoriesPage page.
@@ -30,7 +31,8 @@ export class CategoriesPage {
     public alerCtrl: AlertController,
     public loadingCtrl: LoadingController,
     public videosByCategoryProvider: VideosByCategoryProvider,
-    public userInfoProvider:UserInfoProvider) {
+    public userInfoProvider:UserInfoProvider,
+    public notificationsProvider:NotificationsProvider) {
 
   }
 
@@ -113,12 +115,16 @@ export class CategoriesPage {
 
   yesHandler(category) {
     category.assigned=!category.assigned;
+    var idx = this.userCategories.subscribedCategories.indexOf(category._id);
     if(category.assigned){
-      this.userCategories.subscribedCategories.push(category._id);
+      if (idx == -1) {
+        this.userCategories.subscribedCategories.push(category._id);
+        this.notificationsProvider.refreshCategories(this.userCategories);
+      }
     } else {
-      var idx = this.userCategories.subscribedCategories.indexOf(category._id);
       if (idx != -1) {
         this.userCategories.subscribedCategories.splice(idx, 1);
+        this.notificationsProvider.refreshCategories(this.userCategories);
       } else {
         //TODO handle this error
         console.log("Error");

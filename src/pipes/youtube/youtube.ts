@@ -17,6 +17,6 @@ export class YoutubePipe implements PipeTransform {
    * Takes a value and makes it lowercase.
    */
   transform(value: string, ...args) {
-    return this.dom.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/"+value);
+    return this.dom.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/"+value+"?enablejsapi=1");
   }
 }

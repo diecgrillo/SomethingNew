@@ -14,7 +14,11 @@
 
 
 <ion-content>
-  <iframe [src]="currentVideo.v_id.videoId | youtube" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="width:100%;height:auto%"></iframe>
+  <div>
+  <iframe id="player" [src]="currentVideo.v_id.videoId | youtube" frameborder="0"
+  allow="autoplay; encrypted-media" allowfullscreen
+  style="width:100%;height:auto%"></iframe>
+  </div>
   <ion-list no-padding >
     <ion-item-divider color="primary-dark"> Watch Next </ion-item-divider>
     <ng-container *ngFor="let video of category.videos">
@@ -27,16 +31,4 @@
       </ion-item>
     </ng-container>
   </ion-list>
-  <!--ion-card *ngFor="let video of category.videos" style="background-color:#d6d6f5;padding:5px">
-    <img src={{video.snippet.thumbnails.medium.url}}/>
-
-    <ion-card-content (click)="openCategoryPage(video)" style="background-color:#ffffff">
-      <ion-card-title style="font-size:18px;" align="center">
-        {{video.snippet.title}}
-      </ion-card-title>
-      <p class='ellipsis'>
-        {{video.snippet.description}}
-      </p>
-    </ion-card-content>
-  </ion-card-->
 </ion-content>

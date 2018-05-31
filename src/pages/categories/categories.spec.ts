@@ -4,10 +4,11 @@ import { DebugElement } from '@angular/core';
 import { CategoriesPage } from './categories';
 import { IonicModule, Platform, NavController, LoadingController, AlertController, Alert } from 'ionic-angular/index';
 import { VideosByCategoryProvider } from '../../providers/videos-by-category/videos-by-category'
-import { VideosByCategoryMock, UserInfoMock, LoadingControllerMock, NavControllerMock } from '../../../test/mocks'
+import { VideosByCategoryMock, UserInfoMock, LoadingControllerMock, NavControllerMock, NotificationsProviderMock } from '../../../test/mocks'
 import { AlertControllerMock } from 'ionic3-mocks';
 import { UserInfoProvider } from '../../providers/user-info/user-info'
 import { HttpModule } from '@angular/http';
+import { NotificationsProvider } from '../../providers/notifications/notifications';
 
 describe('CategoriesPage', () => {
 
@@ -42,6 +43,10 @@ describe('CategoriesPage', () => {
         {
           provide: AlertController,
           useValue: alerCtrlMockInstance
+        },
+        {
+          provide: NotificationsProvider,
+          useClass: NotificationsProviderMock
         }
       ]
     }).compileComponents();
@@ -353,7 +358,90 @@ describe('CategoriesPage', () => {
           expect(NavControllerMock.prototype.push).not.toHaveBeenCalled();
           comp.openCategoryPage(category);
           expect(NavControllerMock.prototype.push).toHaveBeenCalled();
-          
+
+          done();
+        });
+      });
+    });
+  });
+
+  it('should call refreshCategories function from NotificationProvider when the user subscribes to a category', (done) => {
+
+    let provider = fixture.debugElement.injector.get(NotificationsProvider);
+    spyOn(provider, 'refreshCategories').and.callThrough();
+    //Wait for LoadingControllerMock Promise
+    comp.ionViewDidLoad();
+    fixture.whenStable().then(() => {
+      fixture.detectChanges();
+
+      //Wait for loading Categories
+      fixture.whenStable().then(() => {
+        fixture.detectChanges();
+
+        //Wait for loading User Categories
+        fixture.whenStable().then(() => {
+          fixture.detectChanges();
+          let categories = comp.categories;
+
+          let category = categories[0];
+          category.assigned = true;
+
+          //In case the user is already assigned, remove the category before test
+          var idx = comp.userCategories.subscribedCategories.indexOf(category._id);
+          if (idx != -1) {
+            comp.userCategories.subscribedCategories.splice(idx, 1);
+          }
+
+          expect(comp.userCategories.subscribedCategories.indexOf(category._id)).toEqual(-1);
+          expect(provider.refreshCategories).not.toHaveBeenCalled();
+
+          comp.subscribe(category);
+          comp.yesHandler(category);
+
+          expect(comp.userCategories.subscribedCategories.indexOf(category._id)).not.toEqual(-1);
+          expect(provider.refreshCategories).toHaveBeenCalled();
+
+          done();
+        });
+      });
+    });
+  });
+
+  it('should call refreshCategories function from NotificationProvider when the user unsubscribe to a category', (done) => {
+    let provider = fixture.debugElement.injector.get(NotificationsProvider);
+    spyOn(provider, 'refreshCategories').and.callThrough();
+    //Wait for LoadingControllerMock Promise
+    comp.ionViewDidLoad();
+    fixture.whenStable().then(() => {
+      fixture.detectChanges();
+
+      //Wait for loading Categories
+      fixture.whenStable().then(() => {
+        fixture.detectChanges();
+
+        //Wait for loading User Categories
+        fixture.whenStable().then(() => {
+          fixture.detectChanges();
+          let categories = comp.categories;
+
+          let category = categories[0];
+          category.assigned = false;
+
+          //In case the user is not assigned, add the category before test
+          var idx = comp.userCategories.subscribedCategories.indexOf(category._id);
+          if (idx == -1) {
+            comp.userCategories.subscribedCategories.push(category._id);
+          }
+
+          expect(comp.userCategories.subscribedCategories.indexOf(category._id)).not.toEqual(-1);
+          expect(provider.refreshCategories).not.toHaveBeenCalled();
+
+          comp.subscribe(category);
+          comp.yesHandler(category);
+
+          expect(comp.userCategories.subscribedCategories.indexOf(category._id)).toEqual(-1);
+          expect(provider.refreshCategories).toHaveBeenCalled();
+
           done();
         });
       });

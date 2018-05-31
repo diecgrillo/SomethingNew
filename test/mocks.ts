@@ -89,3 +89,8 @@ export class NavParamsMock {
     }
   }
 }
+
+export class NotificationsProviderMock {
+  refreshCategories(userCategories:any){
+  }
+}

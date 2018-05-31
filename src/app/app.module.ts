@@ -3,6 +3,7 @@ import { HttpModule } from '@angular/http';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { IonicStorageModule } from '@ionic/storage';
+import {LocalNotifications} from "@ionic-native/local-notifications";
 
 import { MyApp } from './app.component';
 import { CategoriesPage } from '../pages/categories/categories';
@@ -19,6 +20,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { YoutubePipe } from '../pipes/youtube/youtube';
 import { VideosByCategoryProvider } from '../providers/videos-by-category/videos-by-category';
 import { UserInfoProvider } from '../providers/user-info/user-info';
+import { NotificationsProvider } from '../providers/notifications/notifications';
 
 @NgModule({
   declarations: [
@@ -57,7 +59,9 @@ import { UserInfoProvider } from '../providers/user-info/user-info';
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     VideosByCategoryProvider,
     UserInfoProvider,
-    IonicStorageModule
+    IonicStorageModule,
+    NotificationsProvider,
+    LocalNotifications
   ]
 })
 export class AppModule {}

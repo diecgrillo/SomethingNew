@@ -3,8 +3,9 @@ import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 import { VideoPlayerPage } from './video-player';
 import { IonicModule, Platform, NavController, LoadingController, NavParams } from 'ionic-angular/index';
-import { UserInfoMock, LoadingControllerMock, NavControllerMock, NavParamsMock } from '../../../test/mocks'
+import { UserInfoMock, LoadingControllerMock, NavControllerMock, NavParamsMock, NotificationsProviderMock } from '../../../test/mocks'
 import { UserInfoProvider } from '../../providers/user-info/user-info'
+import { NotificationsProvider } from '../../providers/notifications/notifications'
 import { YoutubePipe } from '../../pipes/youtube/youtube';
 
 describe('VideoPlayerPage', () => {
@@ -37,6 +38,10 @@ describe('VideoPlayerPage', () => {
         {
           provide: NavParams,
           useClass: NavParamsMock
+        },
+        {
+          provide: NotificationsProvider,
+          useClass: NotificationsProviderMock
         }
       ]
     }).compileComponents();
@@ -184,4 +189,23 @@ describe('VideoPlayerPage', () => {
     });
   });
 
+  // TODO
+  // it('should add the current video id to the user information and call storeChanges function from UserInfoProvider, when the user watches a video', (done) => {
+  //   //Wait for LoadingControllerMock Promise
+  //   comp.ionViewDidLoad();
+  //   expect(comp.player).toBeUndefined()
+  //   setTimeout(function(){
+  //     expect(comp.player).toBeDefined();
+  //     done();
+  //   }, 5000);
+  //
+  // });
+
+  // it('should call removeVideo function from NotificationProvider, when the user watches a video', () => {
+  //   expect(false).toBeTruthy()
+  // });
+  //
+  // it('should play the video automatically if the user opens this page by clicking on the notification', () => {
+  //   expect(false).toBeTruthy()
+  // });
 });
