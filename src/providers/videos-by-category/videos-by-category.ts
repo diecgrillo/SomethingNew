@@ -10,7 +10,7 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class VideosByCategoryProvider {
   data:any;
-  url:string="http://localhost:3000/category";
+  url:string="http://video-api-video-api.a3c1.starter-us-west-1.openshiftapps.com/category";
 
   constructor(public http: Http) {
     console.log('Hello VideosByCategoryProvider');

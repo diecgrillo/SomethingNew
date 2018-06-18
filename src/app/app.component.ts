@@ -2,10 +2,12 @@ import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { LocalNotifications } from '@ionic-native/local-notifications';
 
 import { CategoriesPage } from '../pages/categories/categories';
 import { MyCategoriesPage } from '../pages/my-categories/my-categories';
 import { SettingsPage } from '../pages/settings/settings';
+import { VideoPlayerPage } from '../pages/video-player/video-player';
 
 @Component({
   templateUrl: 'app.html'
@@ -17,7 +19,7 @@ export class MyApp {
 
   pages: Array<{title: string, component: any}>;
 
-  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
+  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen, public localNotifications: LocalNotifications) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
@@ -35,6 +37,12 @@ export class MyApp {
       // Here you can do any higher level native things you might need.
       this.statusBar.styleDefault();
       this.splashScreen.hide();
+      this.localNotifications.on('click').subscribe((notification)=> {
+        console.log("notification data= "+notification.data);
+        //let teste = JSON.parse(data);
+        //console.log("teste="+teste);
+        this.nav.push(VideoPlayerPage, {video: notification.data.video, category: notification.data.category});
+      })
     });
   }
 

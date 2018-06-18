@@ -21,6 +21,7 @@ export class CategoriesPage {
 
   categories: Array<{name: string, assigned: boolean, _id:string, videos:any}>
   loadFailed:boolean=false;
+  loadFinished:boolean=false;
   userCategories: {
     subscribedCategories : string[],
     watchedVideos : string[]
@@ -41,6 +42,8 @@ export class CategoriesPage {
   }
 
   loadContent(){
+    this.loadFinished=false;
+
     let loading = this.loadingCtrl.create({
       content: 'Please wait...'
     });
@@ -53,6 +56,7 @@ export class CategoriesPage {
         } else {
           loading.dismiss();
           this.loadFailed = true;
+          this.loadFinished=true;
           return;
         }
         this.categories = data;
@@ -77,6 +81,7 @@ export class CategoriesPage {
             }
           }
           loading.dismiss();
+          this.loadFinished=true;
         });
       });
     });
@@ -90,14 +95,14 @@ export class CategoriesPage {
     else
       message = 'Do you want to unsubscribe to "' + category.name + '" category?'
 
-    category.assigned=!category.assigned;
-
     let confirm = this.alerCtrl.create({
-      //title: 'Subscription',
       message: message,
       buttons: [
       {
-        text: 'No'
+        text: 'No',
+        handler: () => {
+          this.noHandler(category);
+        }
       },
       {
         text: 'Yes',
@@ -114,7 +119,6 @@ export class CategoriesPage {
   }
 
   yesHandler(category) {
-    category.assigned=!category.assigned;
     var idx = this.userCategories.subscribedCategories.indexOf(category._id);
     if(category.assigned){
       if (idx == -1) {
@@ -131,5 +135,9 @@ export class CategoriesPage {
       }
     }
     this.userInfoProvider.storeChanges(this.userCategories);
+  }
+
+  noHandler(category) {
+    category.assigned=!category.assigned;
   }
 }

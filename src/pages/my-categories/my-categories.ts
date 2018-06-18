@@ -21,6 +21,7 @@ export class MyCategoriesPage {
 
   categories: Array<{name: string, assigned: boolean, _id:string, videos:any}>
   loadFailed:boolean=false;
+  loadFinished:boolean=false;
   userCategories: {
     subscribedCategories : string[],
     watchedVideos : string[]
@@ -41,6 +42,8 @@ export class MyCategoriesPage {
   }
 
   loadContent(){
+    this.loadFinished=false;
+
     let loading = this.loadingCtrl.create({
       content: 'Please wait...'
     });
@@ -52,6 +55,7 @@ export class MyCategoriesPage {
         } else {
           loading.dismiss();
           this.loadFailed = true;
+          this.loadFinished=true;
           return;
         }
         this.categories = data;
@@ -76,6 +80,7 @@ export class MyCategoriesPage {
             }
           }
           loading.dismiss();
+          this.loadFinished=true;
         });
       });
     });
@@ -89,14 +94,14 @@ export class MyCategoriesPage {
     else
       message = 'Do you want to unsubscribe to "' + category.name + '" category?'
 
-    category.assigned=!category.assigned;
-
     let confirm = this.alerCtrl.create({
-      //title: 'Subscription',
       message: message,
       buttons: [
       {
-        text: 'No'
+        text: 'No',
+        handler: () => {
+          this.noHandler(category);
+        }
       },
       {
         text: 'Yes',
@@ -113,7 +118,6 @@ export class MyCategoriesPage {
   }
 
   yesHandler(category) {
-    category.assigned=!category.assigned;
     var idx = this.userCategories.subscribedCategories.indexOf(category._id);
     if(category.assigned){
       if (idx == -1) {
@@ -130,5 +134,22 @@ export class MyCategoriesPage {
       }
     }
     this.userInfoProvider.storeChanges(this.userCategories);
+    console.log("aaaaaaaa "+this.userCategories.subscribedCategories)
+  }
+
+  noHandler(category) {
+    category.assigned=!category.assigned;
+  }
+
+  hasSubscribedCategories():boolean{
+    if(this.userCategories != undefined && this.userCategories.subscribedCategories != undefined && this.categories != undefined) {
+      for(let i=0; i<this.categories.length; i++) {
+        if (this.userCategories.subscribedCategories.indexOf(this.categories[i]._id) != -1) {
+          return true;
+        }
+      }
+    } else {
+       return false;
+    }
   }
 }

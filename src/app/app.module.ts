@@ -3,7 +3,8 @@ import { HttpModule } from '@angular/http';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { IonicStorageModule } from '@ionic/storage';
-import {LocalNotifications} from "@ionic-native/local-notifications";
+import { LocalNotifications } from "@ionic-native/local-notifications";
+import { FormsModule } from '@angular/forms';
 
 import { MyApp } from './app.component';
 import { CategoriesPage } from '../pages/categories/categories';
@@ -38,6 +39,7 @@ import { NotificationsProvider } from '../providers/notifications/notifications'
   imports: [
     BrowserModule,
     HttpModule,
+    FormsModule,
     IonicModule.forRoot(MyApp),
     IonicStorageModule.forRoot()
   ],

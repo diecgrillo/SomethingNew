@@ -22,7 +22,7 @@
       Try Again
     </button>
   </div>
-  <p style="text-align:center" *ngIf="userCategories != undefined && userCategories.subscribedCategories.length == 0">
+  <p style="text-align:center" *ngIf="!hasSubscribedCategories() && loadFinished">
     You are not subscribed to any category.
   </p>
   <ng-container *ngIf="!loadFailed">
@@ -32,7 +32,7 @@
           <ion-label class="card-categories-label">
             {{category.name}}
           </ion-label>
-          <ion-toggle color="toggle-color" [(ngModel)]="category.assigned" (click)="subscribe(category)"></ion-toggle>
+          <ion-toggle color="toggle-color" [(ngModel)]="category.assigned" (ngModelChange)="subscribe(category)"></ion-toggle>
         </ion-item>
         <ion-card-content class="card-categories-content" (click)="openCategoryPage(category)">
           <ion-row >

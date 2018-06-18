@@ -38,7 +38,8 @@ export class VideoPlayerPage {
 
     this.currentVideo = navParams.get('video');
     this.category = navParams.get('category');
-
+console.log(this.category);
+console.log(this.currentVideo);
   }
 
   ionViewDidLoad() {
@@ -102,7 +103,7 @@ export class VideoPlayerPage {
       case window['YT'].PlayerState.PLAYING:
         //Video started
         if (this.cleanTime() == 0) {
-          if(this.userCategories && this.userCategories.watchedVideos){
+          if(this.  userCategories && this.userCategories.watchedVideos){
             let index = this.userCategories.watchedVideos.indexOf(this.currentVideo._id);
             if(index == -1){
               this.userCategories.watchedVideos.push(this.currentVideo._id);
